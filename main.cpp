@@ -1,5 +1,6 @@
 #include <iostream>
-/* Autor: Mastrikov */
+/* Autor: Mastrikov
+   the curriculum */
 using namespace std;
 
 int main()
