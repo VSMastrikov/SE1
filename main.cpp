@@ -1,14 +1,16 @@
 #include <iostream>
-/* Autor: Mastrikov
+/* Autor: Mastrikov KE-598, 2024
    the curriculum */
 using namespace std;
 
 int main()
 {
-    int a = 5, b = 2, c;
-    c = a - b;
-
-    printf (" c = a - b =  %d - %d = %d", a, b, c);
+   int a, b;
+cout << "Enter A and B: ";
+cin >> a >> b;
+cout << "A + B = " << a + b << '\n'
+<< "A - B = " << a - b << '\n'
+<< "A * B = " << a * b << '\n'; return 0;
 
     return 0;
 }
